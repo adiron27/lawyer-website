@@ -255,37 +255,33 @@ function Header() {
   )
 }
 
-// Hero Section - Professional Style
+// Hero Section - Professional Style with Background Image
 function Hero() {
   return (
     <section id="home" className="hero">
-      <div className="hero-dots"></div>
-      <div className="hero-line hero-line-1"></div>
-      <div className="hero-line hero-line-2"></div>
+      <div className="hero-overlay"></div>
       <div className="container hero-container">
         <div className="hero-content">
-          
           <h1>עו"ד אליאור אפלבוים</h1>
           <div className="hero-divider"></div>
           <p className="hero-tagline">ייעוץ וייצוג משפטי מקצועי</p>
           <p className="hero-subtitle">
-            ליווי משפטי אישי ומסור בתחומי המשפט האזרחי והמסחרי,
-            עם גישה מקצועית ויחס אישי לכל לקוח
+            ליווי משפטי אישי ומסור בתחומי המשפט האזרחי והמסחרי, עם גישה מקצועית
+            ויחס אישי לכל לקוח
           </p>
           <div className="hero-buttons">
             <a href="#contact" className="btn btn-primary">
               לייעוץ ראשוני
               <span className="btn-icon">←</span>
             </a>
-            <a href="#services" className="btn btn-outline">
+            <a href="#services" className="btn btn-outline-light">
               תחומי העיסוק
             </a>
           </div>
         </div>
       </div>
       <div className="hero-scroll">
-        <span>גלול למטה</span>
-        <div className="hero-scroll-line"></div>
+        <div className="hero-scroll-mouse"></div>
       </div>
     </section>
   )
